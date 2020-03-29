@@ -8,6 +8,7 @@
     "start": "next start",
     "deploy": "now --prod"
   },
+  
   "dependencies": {
     "dotenv": "^8.2.0",
     "isomorphic-fetch": "^2.2.1",
