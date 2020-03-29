@@ -2,7 +2,7 @@ import * as React from 'react'
 import { useForm, ErrorMessage } from 'react-hook-form'
 import fetch from 'isomorphic-fetch'
 // custom imports
-import Layout from '../components/Layout'
+import Layout from './Layout'
 
 // custom imports
 import Error from './Error'
