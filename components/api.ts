@@ -4,7 +4,7 @@ const execQuery = (query, variables) => {
   return fetch('https://graphql.fauna.com/graphql', {
     method: 'POST',
     headers: {
-      Authorization: `Bearer ${"fnADoDS_dmACAjuN6iR_gAsqCEnM-VQLMeHUBRHR"}`,
+      Authorization: `Bearer ${"fnADn_Db5fACAuIxN4ElHl_KcZfmVA6ayTIZrpc9"}`,
       'Content-type': 'application/json',
       Accept: 'application/json',
     },
