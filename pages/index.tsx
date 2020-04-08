@@ -25,14 +25,15 @@ export default () => {
   const toggleFullScreen = () => setFullScreen(!fullScreen)
   const methods = useForm()
   const onSubmit = data => {
+    F(data)
     setErrorMessage(null)
     const alias = getAlias()
 
     createLinkAlias(data.inputURL, alias)
       .then(res => {
         if (res.errors) {
-          F(res)
-          console.log(res)
+     
+      
           setErrorMessage('Please try a valid & unique URL')
           return
         }
